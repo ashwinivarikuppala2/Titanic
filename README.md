@@ -2,7 +2,7 @@
 This project aims to predict whether a passenger survived the Titanic disaster using Logistic Regression. The dataset used is the famous Titanic dataset, which contains passenger information such as age, gender, class, and fare.
 This project follows the complete Machine Learning pipeline, including data preprocessing, feature selection, model building, and evaluation.
 
- 🎯 Project Overview
+ # 🎯 Project Overview
    Understand the Titanic dataset
    Perform Data Cleaning and Preprocessing
    Conduct Exploratory Data Analysis (EDA)
@@ -10,11 +10,11 @@ This project follows the complete Machine Learning pipeline, including data prep
    Evaluate model performance
    Make predictions
    
-   Dataset
+  #  Dataset
    Dataset:Titantic dataset(loaded using Seaborn)
    Total record:891 rows*15 columns
    
-🎯 Features Used for Model
+# 🎯 Features Used for Model
    Pclass
    Sex
    Age
@@ -23,10 +23,10 @@ This project follows the complete Machine Learning pipeline, including data prep
    Fare
    Embarked
    
- Target Variable:
+# Target Variable:
 Survived (0 = No, 1 = Yes)
 
-🧹 Data Cleaning Steps
+# 🧹 Data Cleaning Steps
    1. Handling Missing Values
     Filled missing values in Age column using mean value
     Filled missing values in Embarked column using mode
@@ -38,22 +38,22 @@ The following columns were removed:
   Ticket
   Cabin
 
-🔄 Data Preprocessing
+# 🔄 Data Preprocessing
   Categorical columns converted into numerical values:
   Sex → Male = 0, Female = 1
   Embarked → Converted using Label Encoding / One Hot Encoding
   
- Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
   Gender vs Survival
   Passenger Class vs Survival
   Age Distribution
   Correlation Heatmap
   
-Feature Engineering
+  # Feature Engineering
   Converted categorical data into numerical
   Selected important features
   
- 🤖 Model Building
+# 🤖 Model Building
  Import libraries
  Load dataset
  Data cleaning
@@ -63,16 +63,16 @@ Feature Engineering
  Model prediction
  Model evaluation
  
-⚙️ Train Test Split
+# ⚙️ Train Test Split
 Dataset split into:
 Training data (80%)
 Testing data (20%)
 
- 📈 Results
+# 📈 Results
 Model accuracy:0.8048780487804879
 Confusion matrix visualized using heatmap
 
- 📁 Project Structure
+# 📁 Project Structure
 Titanic-Logistic-Regression/
 │
 ├── Titanic_Logistic_Regression.ipynb
