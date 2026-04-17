@@ -3,12 +3,12 @@ This project aims to predict whether a passenger survived the Titanic disaster u
 This project follows the complete Machine Learning pipeline, including data preprocessing, feature selection, model building, and evaluation.
 
  # 🎯 Project Overview
-   Understand the Titanic dataset
-   Perform Data Cleaning and Preprocessing
-   Conduct Exploratory Data Analysis (EDA)
-   Build a Logistic Regression model
-   Evaluate model performance
-   Make predictions
+   1.Understand the Titanic dataset
+   2.Perform Data Cleaning and Preprocessing
+   3.Conduct Exploratory Data Analysis (EDA)
+   4.Build a Logistic Regression model
+   5.Evaluate model performance
+   6.Make predictions
    
   #  Dataset
    Dataset:Titantic dataset(loaded using Seaborn)
