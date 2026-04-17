@@ -9,9 +9,11 @@ This project follows the complete Machine Learning pipeline, including data prep
    Build a Logistic Regression model
    Evaluate model performance
    Make predictions
-# Dataset
+   
+   # Dataset
    Dataset:Titantic dataset(loaded using Seaborn)
    Total record:891 rows*15 columns
+   
 # 🎯 Features Used for Model
    Pclass
    Sex
@@ -20,8 +22,10 @@ This project follows the complete Machine Learning pipeline, including data prep
    Parch 
    Fare
    Embarked
+   
 # Target Variable:
 Survived (0 = No, 1 = Yes)
+
 # 🧹 Data Cleaning Steps
    1. Handling Missing Values
     Filled missing values in Age column using mean value
@@ -33,18 +37,22 @@ The following columns were removed:
   Name
   Ticket
   Cabin
+
 # 🔄 Data Preprocessing
   Categorical columns converted into numerical values:
   Sex → Male = 0, Female = 1
   Embarked → Converted using Label Encoding / One Hot Encoding
+  
 # Exploratory Data Analysis (EDA)
   Gender vs Survival
   Passenger Class vs Survival
   Age Distribution
   Correlation Heatmap
+  
 #  Feature Engineering
   Converted categorical data into numerical
   Selected important features
+  
 # 🤖 Model Building
  Import libraries
  Load dataset
@@ -54,10 +62,12 @@ The following columns were removed:
  Model training
  Model prediction
  Model evaluation
+ 
 # ⚙️ Train Test Split
 Dataset split into:
 Training data (80%)
 Testing data (20%)
+
 # 📈 Results
 Model accuracy:0.8048780487804879
 Confusion matrix visualized using heatmap
@@ -69,6 +79,7 @@ Titanic-Logistic-Regression/
 ├── train.csv
 ├── test.csv
 ├── README.md
+
 # 🚀 How to Run
 Open the notebook in Google Colab / Jupyter Notebook
 Run all cells step by step
